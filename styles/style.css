@@ -87,34 +87,38 @@
 
 .cover__title {
     position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
     color: #FFF;
-    font-family: Raleway;
+    font-family: Raleway, Arial, Helvetica, sans-serif;
     font-size: 100px;
     font-style: normal;
     font-weight: 700;
     line-height: 115px;
     text-transform: uppercase;
     letter-spacing: 30px;
-    padding: 162px 50px 0px 50px;
+    padding: 165px 50px 0px 50px;
     margin-bottom: 135px;
     z-index: 1;
 }
 
 .aligned-text {
     display: block;
+    align-self: start;
 }
 
 .aligned-text_center {
-    padding-top: 20px;
-    padding-right: 60px;
-    text-align: center;
     line-height: 100px;
+    text-align: center;
+    align-self: center;
 }
 
 .aligned-text_right {
-    padding-top: 20px;
     text-align: right;
     line-height: 100px;
+    align-self: end;
 }
 
 .letter-spacing-extended {
@@ -132,7 +136,7 @@
     gap: 76px;
     align-items: center;
     z-index: 1;
-    padding-bottom: 60px;
+    padding-bottom: 48px;
 }
 
 .cover__description-text {
@@ -163,7 +167,7 @@
 }
 
 .lots {
-    padding: 170px 0px 146px 0px;
+    padding: 179px 24px 146px 24px;
 }
 
 .lots__heading {
@@ -174,14 +178,14 @@
     font-weight: 700;
     line-height: normal;
     text-transform: uppercase;
-    padding-left: 64px;
+    padding-left: 40px;
     padding-bottom: 27px;
 }
 
 .lots__card-list {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: baseline;
     flex-wrap: wrap;
     gap: 25px;
     list-style: none;
@@ -191,6 +195,7 @@
     min-height: 563px;
     max-width: 334px;
     flex-grow: 1;
+    
 }
 
 .card-link {
@@ -248,12 +253,12 @@
 .lots__look-more-link {
     display: block;
     color: #000;
-    font-family: Raleway;
+    font-family: Raleway, Arial, Helvetica, sans-serif;
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    padding: 28px 0px 0px 64px;
+    padding: 28px 0px 0px 40px;
 }
 
 .about {
@@ -334,7 +339,7 @@
 .footer__menu-link {
     color: #000;
     text-align: center;
-    font-family: Raleway;
+    font-family: Raleway, Arial, Helvetica, sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
