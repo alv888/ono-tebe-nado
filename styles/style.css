@@ -71,7 +71,6 @@
     position: relative;
     background-color: #eee;
     background-image: url(../images/cover.jpg);
-    background-size: 1100px 757px;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -105,7 +104,7 @@
     display: block;
 }
 
-.aligned-text_center{
+.aligned-text_center {
     padding-top: 20px;
     padding-right: 60px;
     text-align: center;
